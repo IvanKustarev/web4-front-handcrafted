@@ -5,4 +5,5 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const jsx_runtime_1 = require("react/jsx-runtime");
 const react_dom_1 = __importDefault(require("react-dom"));
-react_dom_1.default.render((0, jsx_runtime_1.jsx)("div", { children: "aaa" }, void 0), document.getElementById('root'));
+const App_1 = __importDefault(require("./App"));
+react_dom_1.default.render((0, jsx_runtime_1.jsx)(App_1.default, {}, void 0), document.getElementById('root'));
