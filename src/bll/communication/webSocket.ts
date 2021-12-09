@@ -6,7 +6,7 @@ import {StateType} from "../../types";
 var stompClient:{connect:Function, subscribe:Function, connected: boolean, disconnect: Function};
 
 export const connect = (state: StateType, callBack: Function, errCallBack: Function, port: string) => {
-    let SockJScl = new SockJS(`http://localhost:${port}/ws`);
+    let SockJScl = new SockJS(`http://localhost:7999/ws`);
     stompClient = Stomp.over(SockJScl);
     stompClient.connect({}, () => {
             onConnected(state.getUserId(), callBack)
