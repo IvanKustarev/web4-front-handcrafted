@@ -7,6 +7,7 @@ const AreaContainer = (props: { dots: Array<DotType>, click: Function }) => {
 
     const rParam = useStore(state=>state.rParam)
 
+
     const checkDot = (dot: DotType) => {
         if(rParam>0) {
             if (dot.x < 0 && dot.y < 0) {

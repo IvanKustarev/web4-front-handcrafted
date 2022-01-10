@@ -29,8 +29,6 @@ const Inputs = (props: { sendByButton: (x: string, y: string) => void }) => {
     let x = 0
 
     return <div>
-
-        {/*<input type="text" ref={xRef}/>*/}
         <div className="form-control">
             <label className="label">
                 <span className="label-text">X parameter</span>

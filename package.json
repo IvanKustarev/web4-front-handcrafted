@@ -4,6 +4,7 @@
   "description": "project for front side of WebLab4 of Kustarev Ivan",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack serve",
     "build": "tsc",
     "start": "webpack-dev-server --mode development"
   },
