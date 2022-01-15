@@ -2,7 +2,6 @@ import React from "react";
 import {NavLink, Route, Routes} from "react-router-dom";
 import Authorisation from "./Authorisation";
 import Registration from "./Registration";
-import "./App.css"
 
 const StartPage = () => {
 

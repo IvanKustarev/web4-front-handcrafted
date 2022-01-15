@@ -1,7 +1,6 @@
 import React from "react";
 import useStore from "../../bll/state/store";
 import {useNavigate} from "react-router";
-import "../startPage/App.css"
 
 const LogOut =() =>{
     const logOut = useStore(state => state.logOut)

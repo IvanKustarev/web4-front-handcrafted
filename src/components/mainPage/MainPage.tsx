@@ -4,7 +4,6 @@ import {useNavigate} from "react-router";
 import LogOut from "./LogOut";
 import DotsWorkContainer from "./DotWork/DotsWorkContainer";
 import Results from "./Results";
-import "../startPage/App.css"
 
 const MainPage = () => {
 
